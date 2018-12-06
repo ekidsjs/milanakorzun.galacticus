@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height:100vh;
+  background: url(img/space.png) no-repeat center;
+  background-size: cover;
+  color:white;
+}
+li {
+  height:80px ;
+  width:80px;
+  display: inline-block;
+  margin: 40px 10px;
+  
+}
+img{
+  height:80px ;
+  width:80px;
+  padding:10px;
+}
+img:hover{
+  padding:0;
+}
+nav{
+ text-align: center;
+}
+main{
+ text-align: center;
+ 
+}
+button{
+  height: 40px;
+  width: 120px;
+  background-color: red;
+  border: 2px solid red;
+  color:white;
+  border-radius: 20px;
+}
+button:hover{
+  background-color: transparent;
+}
+p{
+  width: 45%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+h1{
+  font-size: 40px;
+  color:#e5cfa0;
+}
